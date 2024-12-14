@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @test_type %>
+
+<div>
+  <%= link_to "Edit this test type", edit_test_type_path(@test_type) %> |
+  <%= link_to "Back to test types", test_types_path %>
+
+  <%= button_to "Destroy this test type", @test_type, method: :delete %>
+</div>
